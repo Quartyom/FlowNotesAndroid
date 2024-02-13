@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">FlowNotes</string>
+    <string name="infoHowToUseString">Create flows in the main menu. The flow combines notes of the same topic in chronological order. So, for example, you can record your impressions about trips to other cities.\n\nNotes in the flow can be edited. Save the changes so that you don\'t lose them. At any time, you can refer to the initial version of the note, or to the last saved.\n\nYou can navigate through the notes of the flow using the arrows, or through the flow explorer. It displays notes from the last to the first.\n</string>
+    <string name="infoGuideTextString">Click the Guide button to bring back the hints.\n</string>
+    <string name="backString">back</string>
+    <string name="saveString">save</string>
+    <string name="newString">new</string>
+    <string name="flowNameString">Flow name</string>
+    <string name="noteTextString">Note text...</string>
+    <string name="guideString">Guide</string>
+    <string name="infoCreatorString" translatable="false">Made by Quartyom, 2024\nquwolza@gmail.com</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+    <string name="deletionConfinm">Do you want to delete the flow %1$s?</string>
+    <string name="guideMenuText">Here you may create new flows or open existing ones.</string>
+    <string name="guideFocusText">You can write notes here. Save your changes so that you don\'t lose them. By pressing the buttons, you can access the initial, saved or current version of the note. You can also switch notes using the arrows or go to the flow explorer.</string>
+    <string name="guideExplorerText">This is a flow explorer. You can select any note here.</string>
+    <string name="flowNotCreated">Couldn\'t create the flow</string>
+    <string name="newFlowName">New flow</string>
+    <string name="newNoteText">Initial text</string>
+    <string name="focusNumberText">Num: %1$d%2$s</string>
+    <string name="initialNote">, initial</string>
+    <string name="savedNote">, saved</string>
+    <string name="currentNote">, current</string>
+    <string name="noteNotSaved">Not saved</string>
+    <string name="noteCreated">Created: %1$s</string>
+    <string name="errorOccurred">An error occurred</string>
+</resources>

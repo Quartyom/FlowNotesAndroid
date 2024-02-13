@@ -1,0 +1,27 @@
+<resources>
+    <string name="infoHowToUseString">Создавайте потоки в главном меню. Поток объединяет заметки одной тематики в хронологическом порядке. Так, к примеру, можно записывать свои впечатления о поездках в другие города.\n\nЗаметки в потоке можно редактировать. Сохраняйте изменения, чтобы их не потерять. В любой момент можно обратиться к исходной версии заметки, либо к последнему сохранению.\n\nПеремещаться по заметкам потока можно по стрелочкам, либо через обозреватель потока. Обозреватель отображает заметки от последней к первой.\n</string>
+    <string name="infoGuideTextString">Нажмите на кнопку Гид, чтобы вернуть подсказки.\n</string>
+    <string name="backString">назад</string>
+    <string name="saveString">сохранить</string>
+    <string name="newString">создать</string>
+    <string name="flowNameString">Имя потока</string>
+    <string name="noteTextString">Текст заметки...</string>
+    <string name="guideString">Гид</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="deletionConfinm">Хотите удалить поток %1$s?</string>
+    <string name="ok">Ок</string>
+    <string name="guideMenuText">Здесь вы можете создавать потоки или открывать существующие.</string>
+    <string name="guideFocusText">Здесь вы можете писать заметки. Сохраняйте изменения, чтобы их не потерять. По нажатию кнопок можно обратиться к исходной, сохранённой или текущей версии заметки. Также можно переключать заметки по стрелкам или перейти в обозреватель потока.</string>
+    <string name="guideExplorerText">Это обозреватель потока. Здесь можно выбрать любую заметку.</string>
+    <string name="flowNotCreated">Невозможно создать поток</string>
+    <string name="newFlowName">Новый поток</string>
+    <string name="newNoteText">Исходный текст</string>
+    <string name="focusNumberText">Номер %1$d%2$s</string>
+    <string name="initialNote">, исходная</string>
+    <string name="savedNote">, сохр.</string>
+    <string name="currentNote">, текущая</string>
+    <string name="noteNotSaved">Не сохранена</string>
+    <string name="noteCreated">Создана %1$s</string>
+    <string name="errorOccurred">Произошла ошибка</string>
+</resources>
