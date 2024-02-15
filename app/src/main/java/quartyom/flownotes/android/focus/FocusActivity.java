@@ -19,7 +19,7 @@ import quartyom.flownotes.android.explorer.ExplorerActivity;
 import quartyom.flownotes.core.Focus;
 
 public class FocusActivity extends AppCompatActivity {
-    private Focus focus;
+    private Focus focus;    // from view model
     private FlowManagerAndroid flowManager;
     private FocusBinding binding;
     private String flowPath;
@@ -36,7 +36,6 @@ public class FocusActivity extends AppCompatActivity {
         assertNotNull(flowManager, "flowManager");
         flowPath = getIntent().getStringExtra("flowPath");
         assertNotNull(flowPath, "flowPath");
-        loadFocus();
 
         // buttons assignment
         binding.focusInitial.setOnClickListener(view -> {
@@ -122,8 +121,14 @@ public class FocusActivity extends AppCompatActivity {
     }
 
     private void loadFocus() {
-        if (focus != null && focus.flowPathName.equals(flowPath)) {}
-        else { focus = new FocusAndroid(flowManager, flowPath); }
+        if (FocusViewModel.focus != null && FocusViewModel.focus.flowPathName.equals(flowPath)) {
+            // Log.d(getLocalClassName(), "old focus");
+        }
+        else {
+            FocusViewModel.focus = new FocusAndroid(flowManager, flowPath);
+            // Log.d(getLocalClassName(), "new focus");
+        }
+        focus = FocusViewModel.focus;
     }
 
     @Override
